@@ -70,7 +70,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮        ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │        │  ^       │  (       │  )       │  ]       │  ~       │
-         &kp N  &kp T   &kp N &kp T &trans               &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
+        &kp LG(N)  &kp LG(T)   &kp LS(LG(UP)) &kp LS(LG(DOWN)) &trans &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │        │  *       │  -       │  =       │  \       │  `       │
         &kp LG(Z)   &kp LG(X)     &kp LG(V)   &kp LG(C)   &kp PRCNT        &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
